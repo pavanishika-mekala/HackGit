@@ -1,0 +1,57 @@
+{
+    "classname": "Menu",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "eecd07b703474a78a5450da17373195c",
+                    "paramList": [
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "icon"
+                        },
+                        {
+                            "name": "bgColor"
+                        },
+                        {
+                            "name": "onClick"
+                        }
+                    ],
+                    "propertyKey": "addMenu",
+                    "pw": {
+                        "displayName": "addMenu",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e5a2246162b645a08ba52cd86debc74c",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.Hackathon",
+    "version": "1.0.0"
+}

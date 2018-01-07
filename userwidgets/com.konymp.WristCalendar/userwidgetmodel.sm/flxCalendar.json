@@ -1,0 +1,67 @@
+{
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s837f023dc9841b794065a14e191dce4",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxScrDays",
+        "flxScrMonths",
+        "flxHour",
+        "flxMinutes",
+        "flxDimensionHour",
+        "flxMiddle",
+        "flxDimensionMinute",
+        "flxTime",
+        "flxYear",
+        "flxInvisible"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxCalendar",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c4a106e85f0a49d9a137dd04f4106bdc",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxHome",
+    "pf": "userwidgetmodel",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

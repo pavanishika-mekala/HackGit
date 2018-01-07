@@ -1,0 +1,66 @@
+{
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "11%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "72%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_skin_": "s9d3d052caed44ce84bde73581cb459a",
+    "_width_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "allboxes": [],
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "imgGo",
+        "lblGo"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxGO",
+    "info": null,
+    "isvisible": true,
+    "kuid": "i50f662ad72f40baa209c80e677c4f23",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxHome",
+    "pf": "userwidgetmodel",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 2
+}

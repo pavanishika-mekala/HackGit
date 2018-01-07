@@ -1,0 +1,138 @@
+{
+    "classname": "DefaultCalendar",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "aa93d257d0504f619b7e16312418c0fd",
+                    "paramList": [
+                        {
+                            "name": "firstDay"
+                        },
+                        {
+                            "name": "currentMonth"
+                        },
+                        {
+                            "name": "currentYear"
+                        }
+                    ],
+                    "propertyKey": "assignDates",
+                    "pw": {
+                        "displayName": "assignDates",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i5f11d67ef75483eb54cb67630071c2e",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i2d61a0f0fbc479daf63bebc0fa6dbf1",
+                    "paramList": [
+                        {
+                            "name": "id"
+                        }
+                    ],
+                    "propertyKey": "getDotWidgetDetails",
+                    "pw": {
+                        "displayName": "getDotWidgetDetails",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i5f11d67ef75483eb54cb67630071c2e",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "if0e10188db641d2b4a355e133b74fe0",
+                    "paramList": [],
+                    "propertyKey": "hideAllDots",
+                    "pw": {
+                        "displayName": "hideAllDots",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i5f11d67ef75483eb54cb67630071c2e",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b0c8cee4598f4215ab86e39b232be54d",
+                    "paramList": [
+                        {
+                            "name": "eventDay"
+                        }
+                    ],
+                    "propertyKey": "setEventsAfterSwipe",
+                    "pw": {
+                        "displayName": "setEventsAfterSwipe",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i5f11d67ef75483eb54cb67630071c2e",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c7b00471096646c997b54555c765fb32",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "swipeUp",
+                    "pw": {
+                        "displayName": "swipeUp",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i5f11d67ef75483eb54cb67630071c2e",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e822ab01060546389a9d67b539408d20",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "swipeDown",
+                    "pw": {
+                        "displayName": "swipeDown",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i5f11d67ef75483eb54cb67630071c2e",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f44a701dbb4344d1a068f507ab80f611",
+                    "paramList": [],
+                    "propertyIndex": 3,
+                    "propertyKey": "onSelect",
+                    "pw": {
+                        "displayName": "onSelect",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i5f11d67ef75483eb54cb67630071c2e",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}
