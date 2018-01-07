@@ -6,6 +6,8 @@ define(function() {
     _txtWidget : "",
     _animWidget : "",
     _meridian : "",
+    _bulb_on_image : "konymp_wc_bulb_on.png",
+    _bulb_off_image : "konymp_wc_bulb_off.png",
     _full_month_names : {"Jan" : "January",
                          "Feb" : "February",
                          "Mar" : "March",
@@ -160,24 +162,24 @@ define(function() {
 
     _switchBulbs:function(imgWidget1, imgWidget2, action){
       if(action === "on"){
-        imgWidget1.src = "bulb_on.png";
-        imgWidget2.src = "bulb_on.png";
+        imgWidget1.src = this._bulb_on_image;
+        imgWidget2.src = this._bulb_on_image;
       }else{
-        imgWidget1.src = "bulb_off.png";
-        imgWidget2.src = "bulb_off.png";
+        imgWidget1.src = this._bulb_off_image;
+        imgWidget2.src = this._bulb_off_image;
       }
     },
 
     _selectMeridian:function(meridian){
       if(meridian === "am"){
-        this.view.imgAM.src = "bulb_on.png";
-        this.view.imgPM.src = "bulb_off.png";
+        this.view.imgAM.src = this._bulb_on_image;
+        this.view.imgPM.src = this._bulb_off_image;
         this.view.lblAM.skin = "sknlblBGTransTxtYellow150";
         this.view.lblPM.skin = "sknlblBGTransTxtGrey150";
         this._meridian = "AM";
       }else{
-        this.view.imgAM.src = "bulb_off.png";
-        this.view.imgPM.src = "bulb_on.png";
+        this.view.imgAM.src = this._bulb_off_image;
+        this.view.imgPM.src = this._bulb_on_image;
         this.view.lblAM.skin = "sknlblBGTransTxtGrey150";
         this.view.lblPM.skin = "sknlblBGTransTxtYellow150";
         this._meridian = "PM";
