@@ -33,7 +33,7 @@ define(function() {
       }
     },
     _createEachMenu : function(top,height,value,id){
-      var menuFlx = new com.Hackathon.MenuUI({
+      var menuFlx = new com.konymp.MenuUI({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
         "height": height+"%",

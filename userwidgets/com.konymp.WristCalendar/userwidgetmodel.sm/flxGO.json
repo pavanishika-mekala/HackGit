@@ -37,7 +37,6 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "imgGo",
         "lblGo"
     ],
     "clipbounds": false,

@@ -44,7 +44,6 @@
         "value": "50%"
     },
     "children": [
-        "imgGo",
         "lblGo"
     ],
     "clipbounds": false,
