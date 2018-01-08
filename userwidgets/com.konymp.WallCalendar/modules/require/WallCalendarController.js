@@ -20,6 +20,7 @@ define(function() {
       this.view.txtBoxYear.onDone = this.setYear;
 
       this.view.imgDone.onTouchEnd = this.hideEventFlex;
+      this.view.imgClose.onTouchEnd = this.closePopUp;
 
     },
     //Logic for getters/setters of custom properties
@@ -67,6 +68,10 @@ define(function() {
       this.selectedDateDetails = j;
     },
 
+    closePopUp : function(){
+      this.view.flxEvent.setVisibility(false);
+    },
+    
     addEvent : function(){
 
       if(this.selectedDateDetails!==null){

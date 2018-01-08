@@ -13,7 +13,7 @@ define(function() {
     _meridian : "",
     constructor: function(baseConfig, layoutConfig, pspConfig) {
 
-      this.view.preShow = this._initializeEvents;
+      this.view.postShow = this._initializeEvents;
 
       this.view.flxGO.onClick = this._showTime;
       this.view.flxDimensionHour.onTouchMove=this._circleMove;
