@@ -73,7 +73,6 @@ define(function() {
     },
     
     addEvent : function(){
-
       if(this.selectedDateDetails!==null){
         this.view.flxEvent.setVisibility(true);
         this.view.lstBoxEvents.masterData = [
@@ -82,6 +81,9 @@ define(function() {
           [this.lblWorkText,this.lblWorkText],
           [this.lblStudyText,this.lblStudyText]
         ];
+      }
+      else{
+        alert("Select Event Date");
       }
     },
     assignEvents:function(year,month){
